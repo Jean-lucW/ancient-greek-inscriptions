@@ -33,6 +33,11 @@ small, statistically significant gain. Dense embeddings (multilingual-e5-large, 
 bge-reranker-v2-gemma reranker added nothing over BM25 with coverage selection. Full details are in
 [aio_rag/README.md](aio_rag/README.md).
 
+## Paper
+
+The write-up of the method and results:
+[Agentic Harness Ancient Greek Inscriptions JLW 11.26.pdf](paper/Agentic%20Harness%20Ancient%20Greek%20Inscriptions%20JLW%2011.26.pdf).
+
 ## Post-editor model
 
 The QLoRA adapter for Mistral Small 24B Instruct 2501 is hosted on Hugging Face (private, access on request):
@@ -66,6 +71,7 @@ greek data/
   inscriptions/              source corpora: AIO, IRCyr, IAph, IGCyr/GVCyr, IOSPE, ISicily, IIP, EAGLE
   phi-ml/phi.zip             PHI Greek texts, used for AIO entries without their own Greek
 .claude/skills/              Claude Code skill for interactive translation
+paper/                       the paper (PDF)
 ```
 
 ## Usage
