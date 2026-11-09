@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.DS_Store
+# post-editor weights are hosted on Hugging Face: jlw95/aio-postedit-mistral-small-24b-lora
+aio_rag/train/postedit_mistral/adapter/*
+!aio_rag/train/postedit_mistral/adapter/README.md
+!aio_rag/train/postedit_mistral/adapter/adapter_config.json
