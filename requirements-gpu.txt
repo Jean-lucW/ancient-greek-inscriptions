@@ -1,0 +1,8 @@
+# Dense retrievers, reranker and post-editor (embed.py, rerank.py, train_postedit.py, postedit_infer.py)
+# Needs a CUDA GPU with 16 GB of memory. Install PyTorch for your CUDA version first: https://pytorch.org
+-r requirements.txt
+torch
+transformers
+datasets
+trl
+unsloth

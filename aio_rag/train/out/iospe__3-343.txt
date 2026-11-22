@@ -1,5 +1,0 @@
-Pythod[...],
-
-(son of) Pythod[...],
-
-greeting.

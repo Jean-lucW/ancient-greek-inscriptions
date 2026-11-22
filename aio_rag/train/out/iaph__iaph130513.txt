@@ -1,5 +1,0 @@
-[Winter] [sol]stice
-
-[Eq]uinox
-
-[Summer] [sol]stice

@@ -1,7 +1,19 @@
 __pycache__/
 *.pyc
 .DS_Store
-# post-editor weights are hosted on Hugging Face: jlw95/aio-postedit-mistral-small-24b-lora
+
+# Source corpora and everything derived from them stay local (see README, Data)
+greek_data/
+aio_rag/data/pairs.jsonl
+aio_rag/data/chunks.jsonl
+aio_rag/data/styleguide_samples.txt
+aio_rag/data/emb/
+aio_rag/data/rerank/
+aio_rag/train/out/
+aio_rag/eval/
+aio_rag/tmp/
+
+# Post-editor weights are on Hugging Face: jlw95/aio-postedit-mistral-small-24b-lora
 aio_rag/train/postedit_mistral/adapter/*
 !aio_rag/train/postedit_mistral/adapter/README.md
 !aio_rag/train/postedit_mistral/adapter/adapter_config.json
