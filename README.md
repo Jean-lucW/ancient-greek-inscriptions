@@ -40,7 +40,7 @@ The write-up of the method and results:
 
 ## Post-editor model
 
-The QLoRA adapter for Mistral Small 24B Instruct 2501 is hosted on Hugging Face (private, access on request):
+The QLoRA adapter for Mistral Small 24B Instruct 2501 is hosted on Hugging Face:
 [jlw95/aio-postedit-mistral-small-24b-lora](https://huggingface.co/jlw95/aio-postedit-mistral-small-24b-lora).
 Download it to the path the scripts expect:
 
